@@ -1,5 +1,7 @@
 """
-
+Efuah Akhimien-Mhonan
+Lab 13, Add Employee Form with MySQL
+March 17, 2026
 """
 from flask import Flask, render_template, request
 from flask_mysqldb import MySQL
