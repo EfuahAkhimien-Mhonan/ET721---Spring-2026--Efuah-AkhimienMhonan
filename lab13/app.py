@@ -18,7 +18,7 @@ mysql = MySQL(app)
 
 @app.route('/', methods = ['GET', 'POST'])
 def index():
-    msg = " "
+    msg = ""
 
     if request.method == 'POST':
         name = request.form['name']
@@ -29,7 +29,7 @@ def index():
         mysql.connection.commit()
         cur.close()
 
-        msg = "Data inserted succeccfully!"
+        msg = "Data inserted successfully!"
 
     return render_template('index.html', msg = msg)
 
