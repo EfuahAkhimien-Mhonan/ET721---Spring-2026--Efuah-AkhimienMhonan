@@ -1,0 +1,65 @@
+/* PAGE BACKGROUND */
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #87CEEB; /* sky blue */
+    margin: 0;
+    padding: 0;
+}
+
+/* CENTER CONTENT */
+form,
+section {
+    background: lightcoral;
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* HEADINGS */
+h2, h3 {
+    text-align: center;
+}
+
+label, p {
+    color: white;
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+/* BUTTONS */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #87CEEB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3399ff;
+}
+
+/* ITEM LIST */
+#itemslist {
+    list-style: none;
+    padding: 0;
+}
+
+#itemslist li {
+    background: #e6f7ff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
