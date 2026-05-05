@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-/* login + signup */
+/* login.html */
 .title{
     text-align: center;
     color: darkblue;
@@ -32,11 +32,9 @@
     border: none;
 }
 
-/* buttons */
 .btn_login, .btn_signup{
     background-color: darkblue;
     color: whitesmoke;
-    font-size: 1.1rem;
     border: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
@@ -48,7 +46,6 @@
     font-weight: bolder;
 }
 
-/* signup/login link */
 .signup_div{
     margin-top: 3rem;
     color: darkblue;
@@ -57,4 +54,12 @@
 .signup_div a{
     color: forestgreen;
     font-size: 1.1rem;
+}
+
+.signup_div a:hover{
+    color: crimson;
+}
+
+.flash_msg{
+    color: crimson;
 }
